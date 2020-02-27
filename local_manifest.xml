@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Samsung Galaxy S III Mini LineageOS 15.1 local manifests.
+-->
+<manifest>
+	<project name="oguzbakir/android_device_samsung_golden" path="device/samsung/golden" remote="github" revision="lineage-15.1" />
+	<project name="oguzbakir/android_vendor_samsung_golden" path="vendor/samsung/golden" remote="github" revision="lineage-15.1" />
+	<project name="oguzbakir/android_hardware_u8500" path="hardware/u8500" remote="github" revision="lineage-15.1" />
+	<project name="3liteking148/android_kernel_samsung_golden" path="kernel/samsung/golden" remote="github" revision="oreo-dev" />
+
+</manifest>
