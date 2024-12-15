@@ -13,3 +13,8 @@ repo sync
 
 All required files will be downloaded for successful build(Don't forget to apply patches given on device tree).
 
+Patches:
+```
+cd /device/samsung/golden
+./patch.sh
+```
