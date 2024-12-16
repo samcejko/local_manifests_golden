@@ -3,7 +3,7 @@
 
 Clone this repository using this command.
 ```
-git clone  -b lineage-15.1 https://github.com/oguzbakir/local_manifests_golden.git .repo/local_manifests
+git clone  -b lineage-15.1 https://github.com/samcejko/local_manifests_golden.git .repo/local_manifests
 ```
 
 Then sync repos again.
