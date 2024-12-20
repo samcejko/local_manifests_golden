@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Samsung Galaxy S III Mini LineageOS 15.1 local manifests.
--->
 <manifest>
-	<project name="3liteking148/android_device_samsung_golden" path="device/samsung/golden" remote="github" revision="lineage-15.1" />
-	<project name="3liteking148/android_vendor_samsung_golden" path="vendor/samsung/golden" remote="github" revision="cm-14.1" />
-	<project name="samcejko/android_hardware_u8500" path="hardware/u8500" remote="github" revision="cm-14.1" />
-	<project name="3liteking148/android_kernel_samsung_golden-3.4" path="kernel/samsung/golden" remote="github" revision="android-3.4-clean" />
+ <!-- Kernel: golden -->
+ <project name="Golden-development/android_kernel_samsung_golden" path="kernel/samsung/golden" remote="github" revision="pie" />
+ <!-- Device: golden -->
+ <project name="Golden-development/android_device_samsung_golden" path="device/samsung/golden" remote="github" revision="lineage-16.0" />
+ <!-- Vendor: golden -->
+ <project name="Golden-development/android_vendor_samsung_golden" path="vendor/samsung/golden" remote="github" revision="pie" />
 
+ <!-- Dependencies -->
+ <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="lineage-15.1" />
+ <project name="Golden-development/android_hardware_u8500" path="hardware/u8500" remote="github" revision="pie" />
 </manifest>
